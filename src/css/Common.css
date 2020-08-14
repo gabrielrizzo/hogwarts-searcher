@@ -1,0 +1,14 @@
+.default-margin {
+  margin: 20px
+}
+
+input {
+  width: 250px;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-bottom-color: #9aadbf;
+  padding: 5px;
+  opacity: .5;
+  margin-bottom: 20px;
+}

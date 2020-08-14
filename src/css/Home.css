@@ -1,0 +1,16 @@
+.container {
+  padding: 0px 20px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.item-list {
+  flex-grow: 1;
+}
+
+.input {
+  margin: 20px;
+}

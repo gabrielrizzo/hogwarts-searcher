@@ -1,0 +1,12 @@
+.character-item {
+  border: 1px solid #9aadbf;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.character-item__name {
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  color: #6d98ba;
+}
