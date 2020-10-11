@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/CharacterItem.css'
+import '../css/character-item.css'
 
 function CharacterItem (props) {
 

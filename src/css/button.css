@@ -1,0 +1,49 @@
+:root {
+  --primaryColor: #07086E;
+  --dangerColor: #E82D08;
+}
+.button {
+  border-radius: 30px;
+  padding: 24px 32px;
+  border-style: 1px solid red;
+  width: 50%;
+  cursor: pointer;
+}
+
+.button--primary {
+  background-color: var(--primaryColor);
+  border-color: var(--primaryColor);
+  color: white;
+  font-size: 20px
+}
+
+.button--danger {
+  background-color: var(--primaryColor);
+  border-color: var(--primaryColor);
+  color: white;
+  font-size: 20px
+}
+
+.button__content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.content__spinner {
+  margin: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+.content__text {
+  margin: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+}
