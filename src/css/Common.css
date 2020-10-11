@@ -1,5 +1,5 @@
 .default-margin {
-  margin: 20px
+  margin: 24px
 }
 
 input {
@@ -11,4 +11,12 @@ input {
   padding: 5px;
   opacity: .5;
   margin-bottom: 20px;
+}
+
+input:focus {
+  outline: none;
+}
+
+button:focus {
+  outline: none;
 }

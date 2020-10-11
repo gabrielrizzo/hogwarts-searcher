@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import '../css/Common.css'
+import '../css/common.css'
 
 function GenericInput (props) {
   const [ value, setValue ] = useState('')
