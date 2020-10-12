@@ -1,3 +1,19 @@
+#root {
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+html {
+  background-color: #F0EFE9;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
 .default-margin {
   margin: 24px
 }
@@ -11,6 +27,7 @@ input {
   padding: 5px;
   opacity: .5;
   margin-bottom: 20px;
+  background-color: transparent;
 }
 
 input:focus {

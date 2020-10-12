@@ -43,19 +43,22 @@ function Home () {
   }
   return(
     <div className="container">
-      <h1>{title}</h1>
-      <GenericInput
-        className="input"
-        handler={handleChange}
-      />
-      <GenericButton
-        handler={searchHarryPotterCharacterByHouse}
-        text="Pesquisar"
-        type="primary"
-        loading={loading}
-        >
-      </GenericButton>
-      <div style={{ display: 'flex', flexDirection: 'column',  flexGrow: 1, width: '100%', alignItems: 'center', justifyContent: 'center', marginTop: '24px' }}>
+      <div style={{width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', flexGrow: 1 }}>
+        <h1><i className="fas fa-bolt" style={{ marginRight: '16px', color: '#E82D08' }}></i>{title}</h1>
+        <GenericInput
+          className="input"
+          handler={handleChange}
+        />
+        <GenericButton
+          handler={searchHarryPotterCharacterByHouse}
+          text="Pesquisar"
+          type="primary"
+          loading={loading}
+          icon="search"
+          ></GenericButton>
+      </div>
+      <div className={characters.length ? 'list--fade-in' : ''} 
+        style={{ display: 'flex', flexDirection: 'column', width: '100%', alignItems: 'center', justifyContent: 'center', marginTop: '24px' }}>
         {characters.map((character) =>
           <CharacterItem
           key={character._id}
